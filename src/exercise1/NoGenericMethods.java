@@ -35,4 +35,14 @@ public class NoGenericMethods {
     public void setArg3(String arg3) {
         this.arg3 = arg3;
     }
+
+    @Override
+    public String toString() {
+        return "NoGenericMethods{" +
+                "arg1='" + arg1 + '\'' +
+                ", arg2='" + arg2 + '\'' +
+                ", arg3='" + arg3 + '\'' +
+                '}';
+    }
+
 }
