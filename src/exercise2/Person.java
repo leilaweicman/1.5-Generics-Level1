@@ -1,12 +1,12 @@
 package exercise2;
 
-public class Persona {
+public class Person {
 
     private String name;
     private String lastname;
-    private String age;
+    private int age;
 
-    public Persona(String name, String lastname, String age) {
+    public Person(String name, String lastname, int age) {
         this.name = name;
         this.lastname = lastname;
         this.age = age;
@@ -20,7 +20,7 @@ public class Persona {
         return lastname;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
@@ -32,7 +32,16 @@ public class Persona {
         this.lastname = lastname;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", age='" + age + '\'' +
+                '}';
     }
 }
