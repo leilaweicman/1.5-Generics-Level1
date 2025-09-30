@@ -1,6 +1,6 @@
 package exercise1;
 
-public class Main {
+public class NoGenericMethodsApp {
 
     public static void main(String[] args) {
         NoGenericMethods obj1 = new NoGenericMethods("A", "B", "C");

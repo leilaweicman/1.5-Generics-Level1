@@ -77,7 +77,7 @@ Compile and run:
 
 ```sh
 javac -d out src/exercise1/*.java
-java -cp out exercise1.GenericMethodsApp
+java -cp out exercise1.NoGenericMethodsApp
 ```
 
 ### Exercise 2
