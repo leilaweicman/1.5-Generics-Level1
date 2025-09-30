@@ -8,7 +8,7 @@ public class GenericMethodsApp {
         Person person = new Person("Alice", "Smith", 30);
 
         genericMethod.printArguments(person, "Hello", 42);
-        genericMethod.printArguments("Hello", person, 42);
-        genericMethod.printArguments(42, person, "Hello");
+        genericMethod.printArguments("First", 123.45, false);
+        genericMethod.printArguments(99, "Test", person);
     }
 }
