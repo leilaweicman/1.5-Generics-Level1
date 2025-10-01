@@ -7,8 +7,8 @@ public class NoGenericMethodsApp {
         NoGenericMethods obj2 = new NoGenericMethods("C", "A", "B");
         NoGenericMethods obj3 = new NoGenericMethods("B", "C", "A");
 
-        System.out.println(obj1);
-        System.out.println(obj2);
-        System.out.println(obj3);
+        System.out.println("obj1: " + obj1);
+        System.out.println("obj2: " + obj2);
+        System.out.println("obj3: " + obj3);
     }
 }
